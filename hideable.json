@@ -22,7 +22,7 @@
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"div+div+div[data-visualcompletion] > a[href*='/post_insights/']"}
-		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=banner] ~ * [role=navigation]"}
+		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=banner] ~ * [role=navigation].S2F_top_hdrh"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] > :first-child a[href='/']"}
 		,{"id":2020120702,"name":"Header: 'Search Facebook' box","selector":"[role=banner] input[type=search]","parent":"label"}
@@ -185,5 +185,11 @@
 		,{"id":2025062601,"name":"Chat Sidebar: Contacts: Meta AI bot","selector":"a[role=link][href*='/messages/'] image[*|href*='/gen-ai']","parent":"li"}
 		,{"id":2025102301,"name":"Left Rail: Chat with AIs","selector":"[role=banner] ~ * [role=navigation] a[href*='aistudio.facebook']"}
 		,{"id":2025110301,"name":"Header: 'Reels' button","selector":"[role=banner] [role=navigation] a[href*='/reel/']"}
+		,{"id":2026032401,"name":"News Feed: Remember Password prompt (2026)","selector":"[role=main] .S2F_fldr_row.S2F_just_cent > .S2F_mw_100 > .S2F_mb_0 img[src*=switch]","parent":".S2F_fldr_row.S2F_just_cent > .S2F_mw_100 > *"}
+		,{"id":2026032402,"name":"Profile: Share a thought","selector":".S2F_disp_flex.S2F_zi_1.S2F_pos_abs > [role=button].S2F_alini_stre.S2F_disp_infl > .S2F_pos_abs.S2F_zi_1 > * "}
+		,{"id":2026032403,"name":"[NOT RECOMMENDED!] Left Rail (entire block, in messages)","selector":"[role=banner] ~ * [role=navigation].S2F_flex_shr1"}
+		,{"id":2026032404,"name":"Right Rail: Birthdays (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] [href*='/events/birthdays']","parent":".S2F_pos_rel.xyen2ro"}
+		,{"id":2026032405,"name":"Right Rail: Sponsored (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] a[aria-labelledby][attributionsrc][href*=utm_c]","parent":".S2F_pos_rel.xyen2ro"}
+		,{"id":2026032406,"name":"Post: Annoying AI Questions","selector":"[sfx_post] .S2F_zi_0 > .S2F_zi_1[aria-hidden] ~ .S2F_bxs_bbox i[role=img][aria-label]","parent":".S2F_mb_0 > .S2F_mb_0 > .S2F_mb_0 > .S2F_bxs_bbox"}
 	]
 }
