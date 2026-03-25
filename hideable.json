@@ -169,7 +169,7 @@
 		,{"id":2023060399,"name":"Profile: Create with avatar","selector":"[aria-label][href*='set='] ~ div [aria-label*=avatar]"}
 		,{"id":2023071201,"name":"Groups Feed: Chats you should join","selector":"html[sfx_url*='/groups/'] [aria-label][role=grid] a[href*='/messages/'] .S2F_col_tx2","parent":".S2F_oscry_cont"}
 		,{"id":2023081700,"name":"Left Rail: Meta Quest","selector":"[role=banner] ~ * [role=navigation] a[href*='meta.com'][href*=quest]"}
-		,{"id":2023081701,"name":"[DISABLED] Left Rail: Feeds: All","selector":"xxx [role=banner] ~ * [role=navigation] a[href*='filter=all']","DOC":"Displays underneath 2026032407 -- cannot be accessed"}
+		,{"id":2023081701,"name":"Left Rail: Feeds: All","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=all']"}
 		,{"id":2023091300,"name":"NOT LOGGED IN: See more on Facebook (overlay)","selector":"form[action*=login] a[href*='/recover/initiate'].S2F_col_acc","parent":".S2F_zi_0 > .S2F_disp_flex"}
 		,{"id":2023091301,"name":"NOT LOGGED IN: Create Account (form)","selector":"a[href*='/login/?next=']","parent":".S2F_bg_surf.S2F_pos_fix > *"}
 		,{"id":2023091302,"name":"NOT LOGGED IN: Create Account (shelf)","selector":"a[href*='/login/?next=']","parent":".S2F_bg_surf.S2F_pos_fix"}
@@ -192,5 +192,9 @@
 		,{"id":2026032405,"name":"Right Rail: Sponsored (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] a[aria-labelledby][attributionsrc][href*=utm_c]","parent":".S2F_pos_rel.xyen2ro"}
 		,{"id":2026032406,"name":"Post: Annoying AI Questions","selector":"[sfx_post] .S2F_zi_0 > .S2F_zi_1[aria-hidden] ~ .S2F_bxs_bbox i[role=img][aria-label]","parent":".S2F_mb_0 > .S2F_mb_0 > .S2F_mb_0 > .S2F_bxs_bbox"}
 		,{"id":2026032407,"name":"Left Rail (ENTIRE BLOCK, in Feeds)","selector":"[role=banner] ~ * [role=navigation]:has(a[href*='/?filter='])"}
+		,{"id":2026032408,"name":"Left Rail: Feeds: Friends","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=friends']"}
+		,{"id":2026032409,"name":"Left Rail: Feeds: Favorites","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=favorites']"}
+		,{"id":2026032410,"name":"Left Rail: Feeds: Groups","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=groups']"}
+		,{"id":2026032411,"name":"Left Rail: Feeds: Pages","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=pages']"}
 	]
 }
