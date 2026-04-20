@@ -189,7 +189,7 @@
 		,{"id":2026032402,"name":"Profile: Share a thought","selector":".S2F_disp_flex.S2F_zi_1.S2F_pos_abs > [role=button].S2F_alini_stre.S2F_disp_infl > .S2F_pos_abs.S2F_zi_1 > * "}
 		,{"id":2026032403,"name":"[NOT RECOMMENDED!] Left Rail (ENTIRE BLOCK, in Messages)","selector":"[role=banner] ~ * [role=navigation]:has([role=tablist])"}
 		,{"id":2026032404,"name":"Right Rail: Birthdays (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] [href*='/events/birthdays']","parent":".S2F_pos_rel.xyen2ro"}
-		,{"id":2026032405,"name":"Right Rail: Sponsored (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] a[aria-labelledby][attributionsrc][href*=utm_c]","parent":".S2F_pos_rel.xyen2ro"}
+		,{"id":2026032405,"name":"Right Rail: Sponsored (2026)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] a[aria-labelledby][attributionsrc][href*=utm_c],.S2F_fhd_wide.S2F_flwr_no [role=complementary] a[attributionsrc][href*=utm_c] [aria-labelledby]","parent":".S2F_pos_rel.xyen2ro"}
 		,{"id":2026032406,"name":"Post: Annoying AI Questions","selector":"[sfx_post] .S2F_zi_0 > .S2F_zi_1[aria-hidden] ~ .S2F_bxs_bbox i[role=img][aria-label]","parent":".S2F_mb_0 > .S2F_mb_0 > .S2F_mb_0 > .S2F_bxs_bbox"}
 		,{"id":2026032407,"name":"Left Rail (ENTIRE BLOCK, in Feeds)","selector":"[role=banner] ~ * [role=navigation]:has(a[href*='/?filter='])"}
 		,{"id":2026032408,"name":"Left Rail: Feeds: Friends","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=friends']"}
