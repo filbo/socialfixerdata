@@ -196,5 +196,6 @@
 		,{"id":2026032409,"name":"Left Rail: Feeds: Favorites","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=favorites']"}
 		,{"id":2026032410,"name":"Left Rail: Feeds: Groups","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=groups']"}
 		,{"id":2026032411,"name":"Left Rail: Feeds: Pages","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=pages']"}
+		,{"id":2026042001,"name":"Post: Donate button (English only)","selector":"[sfx_post] [aria-label=Donate]","parent":".S2F_mb_0 > .S2F_pos_rel.S2F_mb_0"}
 	]
 }
