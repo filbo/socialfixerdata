@@ -72,15 +72,9 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[role=button],[role=link],._5pcp,._5pcq:has-visible-text(^(Anzeig|Chartered$|Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助|ממומ))"
+				"text": "[role=button],[role=link]:has-visible-text(^[\u034f\u2060]*(A[\u034f\u2060]*d[\u034f\u2060]*$|Anzeig|Chartered$|Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|S[\u034f\u2060]*p[\u034f\u2060]*o[\u034f\u2060]*n[\u034f\u2060]*[sz]|Χορηγ|広告|贊助|赞助|ממומ))"
 			},
 			"DOC": "Relies on 'x,y:has-visible-text(z)' improperly applying to both x & y"
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiStreamSponsoredLink,.uiContextualLayerParent>span._5-sh,._5pcr ._5-sh,._5pcr a._34k6[ajaxify*='branded_content'],._5pcr a._34k6[ajaxify*='/verified_voice_context/'],._5pcq[ajaxify*='ad_id=']"
-			}
 		}, {
 			"target": "app",
 			"operator": "equals",
@@ -93,7 +87,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about'],a.xo1l8bm[href*='/ads'][href*='/about'],a.xi81zsa[href*='/ads'][href*='/about'],a.S2F_font_400[href*='/ads'][href*='/about'],a.S2F_col_tx2[href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.S2F_font_400[href*='/ads'][href*='/about'],a.S2F_col_tx2[href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
